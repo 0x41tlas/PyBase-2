@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>PyBase</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/master.css') }}">
+    </head>
+    <body>
+        <header id="fixedheader" role="banner">
+            <div id="centerheader">
+                <span class="headerspan">
+                    <h1>PyBase Entry</h1>
+                </span>
+            </div>
+            <div id="headerlinks">
+                <a href="/">HOME</a>
+                <a href="/search">SEARCH</a>
+                <a href="/entry" class="here">ENTRY</a>
+            </div>
+        </header>
+        <div class="maincontent">
+            <div>
+                <p>Name:</p>
+                <input id="name"><br>
+                <p>Location:</p>
+                <input id="locate"><br>
+                <p>Quantity:</p>
+                <input id="quant"><br>
+                <p>Description:</p>
+                <input id="description"><br>
+                <p>Manufacturer:</p>
+                <input id="manufacturer"><br>
+                <button id="enter">Enter</button>
+            </div>
+            <script src="{{url_for('static', filename='js/entry.js')}}"></script>
+        </div>
+    </body>
+</html>

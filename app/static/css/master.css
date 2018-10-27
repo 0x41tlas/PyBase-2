@@ -1,0 +1,87 @@
+body {
+  	background-color: #26262b;
+}
+
+#centerheader {
+    color: white;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	max-width: 800px;
+}
+
+#enter {
+    margin-top: 10px;
+}
+
+#fixedheader {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid white;
+    background-image: url("pictures/gradiant.png");
+}
+
+#headerlinks {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#headerlinks a {
+    padding: 10px;
+    font-weight: bold;
+	text-decoration: none;
+    color: white;
+}
+
+#headerlinks a:hover {
+    background-color: white;
+    color: black;
+}
+
+#resultTable {
+    border: 1px solid white;
+    width: 100%;
+}
+
+#resulttext {
+    padding-left: 20px;
+}
+
+#des {
+    width: 50%;
+}
+
+.x {
+    text-align: center;
+}
+
+.x:hover {
+    background-color: white;
+    color: black;
+}
+
+.headerspan {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+
+.here {
+    border-bottom: 5px solid white;
+}
+
+.maincontent {
+    color: white;
+    padding-top: 130px;
+}
+
+
+td {
+    font-weight: lighter;
+    padding: 4px 20px 4px 20px;
+    border: 1px solid white;
+}
